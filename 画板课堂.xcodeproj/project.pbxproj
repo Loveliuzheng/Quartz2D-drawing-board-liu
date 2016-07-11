@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6689ACD1CE2AE8500106510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689ACC1CE2AE8500106510 /* main.m */; };
+		C6689AD01CE2AE8500106510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689ACF1CE2AE8500106510 /* AppDelegate.m */; };
+		C6689AD31CE2AE8500106510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AD21CE2AE8500106510 /* ViewController.m */; };
+		C6689AD61CE2AE8500106510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6689AD41CE2AE8500106510 /* Main.storyboard */; };
+		C6689AD81CE2AE8500106510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6689AD71CE2AE8500106510 /* Assets.xcassets */; };
+		C6689ADB1CE2AE8500106510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6689AD91CE2AE8500106510 /* LaunchScreen.storyboard */; };
+		C6689AE41CE2AE9C00106510 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AE31CE2AE9C00106510 /* BaseView.m */; };
+		C6689AE71CE2AFBE00106510 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AE61CE2AFBE00106510 /* DrawView.m */; };
+		C6689AEA1CE2C56C00106510 /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AE91CE2C56C00106510 /* ToolView.m */; };
+		C6689AED1CE2C9E200106510 /* SelectColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AEC1CE2C9E200106510 /* SelectColorView.m */; };
+		C6689AF01CE2D59F00106510 /* SelectLineWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6689AEF1CE2D59F00106510 /* SelectLineWidthView.m */; };
+		C6F189171CE31AED002D5D0E /* PathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F189161CE31AED002D5D0E /* PathModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6689AC81CE2AE8500106510 /* 画板课堂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画板课堂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6689ACC1CE2AE8500106510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6689ACE1CE2AE8500106510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6689ACF1CE2AE8500106510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6689AD11CE2AE8500106510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6689AD21CE2AE8500106510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6689AD51CE2AE8500106510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6689AD71CE2AE8500106510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6689ADA1CE2AE8500106510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6689ADC1CE2AE8500106510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6689AE21CE2AE9C00106510 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C6689AE31CE2AE9C00106510 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		C6689AE51CE2AFBE00106510 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		C6689AE61CE2AFBE00106510 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		C6689AE81CE2C56C00106510 /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		C6689AE91CE2C56C00106510 /* ToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+		C6689AEB1CE2C9E200106510 /* SelectColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectColorView.h; sourceTree = "<group>"; };
+		C6689AEC1CE2C9E200106510 /* SelectColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectColorView.m; sourceTree = "<group>"; };
+		C6689AEE1CE2D59F00106510 /* SelectLineWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLineWidthView.h; sourceTree = "<group>"; };
+		C6689AEF1CE2D59F00106510 /* SelectLineWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLineWidthView.m; sourceTree = "<group>"; };
+		C6F189151CE31AED002D5D0E /* PathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathModel.h; sourceTree = "<group>"; };
+		C6F189161CE31AED002D5D0E /* PathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6689AC51CE2AE8500106510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6689ABF1CE2AE8500106510 = {
+			isa = PBXGroup;
+			children = (
+				C6689ACA1CE2AE8500106510 /* 画板课堂 */,
+				C6689AC91CE2AE8500106510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6689AC91CE2AE8500106510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6689AC81CE2AE8500106510 /* 画板课堂.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6689ACA1CE2AE8500106510 /* 画板课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				C6689AE21CE2AE9C00106510 /* BaseView.h */,
+				C6689AE31CE2AE9C00106510 /* BaseView.m */,
+				C6689ACE1CE2AE8500106510 /* AppDelegate.h */,
+				C6689ACF1CE2AE8500106510 /* AppDelegate.m */,
+				C6689AD11CE2AE8500106510 /* ViewController.h */,
+				C6689AD21CE2AE8500106510 /* ViewController.m */,
+				C6689AE51CE2AFBE00106510 /* DrawView.h */,
+				C6689AE61CE2AFBE00106510 /* DrawView.m */,
+				C6689AE81CE2C56C00106510 /* ToolView.h */,
+				C6689AE91CE2C56C00106510 /* ToolView.m */,
+				C6F189151CE31AED002D5D0E /* PathModel.h */,
+				C6F189161CE31AED002D5D0E /* PathModel.m */,
+				C6689AEB1CE2C9E200106510 /* SelectColorView.h */,
+				C6689AEC1CE2C9E200106510 /* SelectColorView.m */,
+				C6689AEE1CE2D59F00106510 /* SelectLineWidthView.h */,
+				C6689AEF1CE2D59F00106510 /* SelectLineWidthView.m */,
+				C6689AD41CE2AE8500106510 /* Main.storyboard */,
+				C6689AD71CE2AE8500106510 /* Assets.xcassets */,
+				C6689AD91CE2AE8500106510 /* LaunchScreen.storyboard */,
+				C6689ADC1CE2AE8500106510 /* Info.plist */,
+				C6689ACB1CE2AE8500106510 /* Supporting Files */,
+			);
+			path = "画板课堂";
+			sourceTree = "<group>";
+		};
+		C6689ACB1CE2AE8500106510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6689ACC1CE2AE8500106510 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6689AC71CE2AE8500106510 /* 画板课堂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6689ADF1CE2AE8500106510 /* Build configuration list for PBXNativeTarget "画板课堂" */;
+			buildPhases = (
+				C6689AC41CE2AE8500106510 /* Sources */,
+				C6689AC51CE2AE8500106510 /* Frameworks */,
+				C6689AC61CE2AE8500106510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "画板课堂";
+			productName = "画板课堂";
+			productReference = C6689AC81CE2AE8500106510 /* 画板课堂.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6689AC01CE2AE8500106510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GG;
+				TargetAttributes = {
+					C6689AC71CE2AE8500106510 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5A37P86775;
+					};
+				};
+			};
+			buildConfigurationList = C6689AC31CE2AE8500106510 /* Build configuration list for PBXProject "画板课堂" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6689ABF1CE2AE8500106510;
+			productRefGroup = C6689AC91CE2AE8500106510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6689AC71CE2AE8500106510 /* 画板课堂 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6689AC61CE2AE8500106510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6689ADB1CE2AE8500106510 /* LaunchScreen.storyboard in Resources */,
+				C6689AD81CE2AE8500106510 /* Assets.xcassets in Resources */,
+				C6689AD61CE2AE8500106510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6689AC41CE2AE8500106510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6689AD31CE2AE8500106510 /* ViewController.m in Sources */,
+				C6F189171CE31AED002D5D0E /* PathModel.m in Sources */,
+				C6689AD01CE2AE8500106510 /* AppDelegate.m in Sources */,
+				C6689AEA1CE2C56C00106510 /* ToolView.m in Sources */,
+				C6689AF01CE2D59F00106510 /* SelectLineWidthView.m in Sources */,
+				C6689ACD1CE2AE8500106510 /* main.m in Sources */,
+				C6689AED1CE2C9E200106510 /* SelectColorView.m in Sources */,
+				C6689AE41CE2AE9C00106510 /* BaseView.m in Sources */,
+				C6689AE71CE2AFBE00106510 /* DrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6689AD41CE2AE8500106510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6689AD51CE2AE8500106510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6689AD91CE2AE8500106510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6689ADA1CE2AE8500106510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6689ADD1CE2AE8500106510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6689ADE1CE2AE8500106510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6689AE01CE2AE8500106510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "画板课堂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamco.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6689AE11CE2AE8500106510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "画板课堂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamco.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6689AC31CE2AE8500106510 /* Build configuration list for PBXProject "画板课堂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6689ADD1CE2AE8500106510 /* Debug */,
+				C6689ADE1CE2AE8500106510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6689ADF1CE2AE8500106510 /* Build configuration list for PBXNativeTarget "画板课堂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6689AE01CE2AE8500106510 /* Debug */,
+				C6689AE11CE2AE8500106510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6689AC01CE2AE8500106510 /* Project object */;
+}
